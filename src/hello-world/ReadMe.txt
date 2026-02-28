@@ -2,7 +2,7 @@ From the "hello-world" folder.
 
 ** Configure CMake to compile the code **
  
-cmake -S . -B build
+cmake -S . -B ./build
 
 ** Compile the code **
 
