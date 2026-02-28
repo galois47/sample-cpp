@@ -1,21 +1,34 @@
-... Using CMake
+...................
+... Using CMake ...
+...................
 
-Hello World ... 
+Hello world                            ...  OK
 
-Compiled Dynamic Library ... 
+Compiled dynamic library               ...  X
 
-Compiled Static Library ... 
+Compiled static library                ...  X
 
-Lambdas
+Using external library                 ...  X
 
-Smart Pointers
+Lambdas                                ...  X
+  
+Smart Pointers                         ...  X
 
-Templates
+Templates                              ...  X
 
-Const Expr
+Const Expr                             ...  X
 
-Move Semantics
+Move Semantics                         ...  X
 
-Copy Constructor
+Copy Constructor                       ...  X
 
-Destructor
+Destructor                             ...  X
+
+
+...................
+... Using Conan ...
+...................
+
+Publish a dynamic library                ...  X
+
+Pulling a dynamic library                ...  X
