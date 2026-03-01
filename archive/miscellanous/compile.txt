@@ -1,2 +1,0 @@
-g++ <cpp_file>.cpp -o <executable_name>
-
