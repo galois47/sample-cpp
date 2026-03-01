@@ -1,11 +1,9 @@
-#ifndef VECTOR
-#define VECTOR
+#ifndef VECTOR3
+#define VECTOR3
 
-#include <string>
-
-class Vector {     
+class Vector3 {     
   public:  
-    Vector(int, int, int);
+    Vector3(int, int, int);
 
     int getXCoordinate();
 
