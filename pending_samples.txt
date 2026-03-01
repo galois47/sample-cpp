@@ -4,11 +4,9 @@
 
 Hello world                            ...  OK
 
-Compiled dynamic library               ...  X
+Compiled static library                ...  OK
 
-Compiled static library                ...  X
-
-Using external library                 ...  X
+Using external library                 ...  OK
 
 Lambdas                                ...  X
   

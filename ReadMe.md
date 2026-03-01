@@ -1,1 +1,3 @@
-### Sample Cpp Code
+### Sample C++ Code
+
+Collection of sample C++ code.
