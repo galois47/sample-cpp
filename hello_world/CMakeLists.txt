@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.22.1)
 
-project(hello_world LANGUAGES CXX)
+set(PROJECT_NAME "hello_world")
 
-add_executable(hello_world src/hello_world.cpp)
+project(${PROJECT_NAME} LANGUAGES CXX)
+
+set(SOURCES src/hello_world.cpp)
+
+add_executable(${PROJECT_NAME} ${SOURCES})

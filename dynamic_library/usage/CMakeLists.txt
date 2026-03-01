@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22.1)
 
-set(PROJECT_NAME  "using_dynamic_libs")
+set(PROJECT_NAME "using_dynamic_libs")
 
 project(${PROJECT_NAME} LANGUAGES CXX)
 
