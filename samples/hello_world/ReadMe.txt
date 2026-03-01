@@ -1,4 +1,4 @@
-From the "hello-world" folder. 
+From the "hello_world" folder. 
 
 ** Configure CMake to compile the code **
  
@@ -10,4 +10,4 @@ cmake --build ./build
 
 ** Run the executable **
 
-./build/hello-world
+./build/hello_world
