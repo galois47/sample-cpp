@@ -1,5 +1,5 @@
 #include <string>
-#include "Vector.h"
+#include "vector.h"
 
 Vector::Vector(int x, int y, int z):m_x{x}, m_y{y}, m_z{z} {};
 

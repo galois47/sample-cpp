@@ -1,3 +1,6 @@
+#ifndef VECTOR
+#define VECTOR
+
 #include <string>
 
 class Vector {     
@@ -13,3 +16,5 @@ class Vector {
   private:
     int m_x, m_y, m_z;         
 };
+
+#endif
