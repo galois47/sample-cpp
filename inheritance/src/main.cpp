@@ -3,8 +3,8 @@
 #include <iostream>
 
 int main() { 
-    //Using derived class method
-    Car* carPtr = new Car("Ford", "Mustang");
+    //Using derived class method via runtime polymorphism
+    Vehicle* carPtr = new Car("Ford", "Mustang");
     carPtr->displayDetails();
     std::cout << "Car Ptr Memory Location:     " <<carPtr << "\n";
     std::cout << "-----------------------------" << "\n";

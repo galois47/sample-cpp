@@ -7,7 +7,7 @@
 class Car: public Vehicle{
     public:
         Car(std::string, std::string);
-        void displayDetails();
+        void displayDetails() override;
 
     private:
         std::string model_name; // Specific to Car class
