@@ -10,7 +10,7 @@ class Car: public Vehicle{
         void displayDetails();
 
     private:
-        std::string car_model; // Specific to Car class
+        std::string model_name; // Specific to Car class
 };
 
 #endif
