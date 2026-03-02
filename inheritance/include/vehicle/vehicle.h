@@ -6,7 +6,7 @@
 class Vehicle {
     public:
         Vehicle(std::string);
-        void honk();
+        void displayDetails();
 
     protected:
         std::string brand_name; // Accessible by derived classes via public inheritance

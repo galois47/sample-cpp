@@ -3,6 +3,6 @@
 
 Vehicle::Vehicle(std::string brand): brand_name(brand){};
 
-void Vehicle::honk() {
-    std::cout << "Vehicle honking!" << std::endl;
+void Vehicle::displayDetails() {
+    std::cout << "Vehicle Brand: " << brand_name << std::endl;
 };

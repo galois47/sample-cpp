@@ -3,10 +3,27 @@
 #include <iostream>
 
 int main() { 
-    Car myCar("Ford", "Mustang"); 
+    //Using derived class method
+    Car* carPtr = new Car("Ford", "Mustang");
+    carPtr->displayDetails();
+    std::cout << "Car Ptr Memory Location: " <<carPtr << "\n";
+    std::cout << "-------------------------" << "\n";
 
-    myCar.honk();
-    myCar.displayDetails();
+    //Using based class method
+    Vehicle* vehiclePtr = new Vehicle("Honda");
+    vehiclePtr->displayDetails();
+    std::cout << "Vehicle Ptr Memory Location: " <<vehiclePtr << "\n";
+    std::cout << "-------------------------" << "\n";
+
+    //Vehicle from car details
+    vehiclePtr = carPtr;
+    vehiclePtr->displayDetails();
+    std::cout << "Car Ptr Memory Location:     " <<carPtr << "\n";
+    std::cout << "Vehicle Ptr Memory Location: " <<vehiclePtr << "\n";
+    std::cout << "-------------------------" << "\n";
+
+    //Deleting heap allocated ptr
+    delete vehiclePtr;
     
     return 0;
 }
