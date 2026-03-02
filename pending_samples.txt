@@ -8,6 +8,8 @@ Compiled static library                ...  OK
 
 Using external library                 ...  OK
 
+Basic inheritance                      ...  OK
+
 Lambdas                                ...  X
   
 Smart Pointers                         ...  X
@@ -20,8 +22,9 @@ Move Semantics                         ...  X
 
 Copy Constructor                       ...  X
 
-Destructor                             ...  X
+Destructors                            ...  X
 
+Defined Macros                         ...  X
 
 ...................
 ... Using Conan ...
